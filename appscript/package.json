@@ -1,0 +1,8 @@
+{
+    "name": "docsummary",
+    "devDependencies": {
+        "@google/clasp": "^2.4.2",
+        "@types/google-apps-script": "^1.0.78",
+        "prettier": "^3.1.1"
+    }
+}

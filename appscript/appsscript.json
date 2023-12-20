@@ -1,0 +1,25 @@
+{
+  "timeZone": "America/New_York",
+  "dependencies": {},
+  "exceptionLogging": "STACKDRIVER",
+  "oauthScopes": [
+    "https://www.googleapis.com/auth/cloud-platform",
+    "https://www.googleapis.com/auth/documents.currentonly",
+    "https://www.googleapis.com/auth/script.external_request"
+  ],
+  "runtimeVersion": "V8",
+  "addOns": {
+    "common": {
+      "name": "DocSummary",
+      "logoUrl": "https://storage.googleapis.com/cm-docsummary-assets/icon.png",
+      "layoutProperties": {
+        "primaryColor": "#2772ed"
+      }
+    },
+    "docs": {
+      "homepageTrigger": {
+        "runFunction": "onHomepage"
+      }
+    }
+  }
+}

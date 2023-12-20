@@ -1,2 +1,4 @@
 .terraform
 *.backup
+.clasp.json
+node_modules
